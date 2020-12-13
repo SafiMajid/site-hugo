@@ -1,0 +1,103 @@
+baseURL = "https://safimajid.github.io"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Safi Majid"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+title = "Safi Majid"
+author = "Safi Majid"
+description = ""
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/favicon.ico"
+# example ["css/custom.css"]
+customCss = []
+# example ["js/custom.js"]
+customJs = [] 
+mainSections = []  # IMPORTANT add "post in [] in end
+#images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+# Form Spree Contact Form
+#contactFormAction = ""
+# Google Site Verify
+#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+displayMode = "dark"
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://linkedin.com/in/SafiMajid"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/safimajid"
+
+## [[params.socialIcons]]
+## icon = "fab fa-instagram"
+## title = "instagram"
+## url = "https://www.instagram.com/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:smajid.bee16seecs@seecs.edu.pk"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+ ## [[menu.main]]
+ ## name = "Projects"
+ ## weight = 200
+ ## identifier = "projects"
+ ## url = "/projects/"
+
+ ## [[menu.main]]
+ ## name = "Posts"
+ ## weight = 300
+ ## identifier = "posts"
+ ## url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 400
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 500
+  identifier = "contact"
+  url = "/contact/"
+
+ 
+

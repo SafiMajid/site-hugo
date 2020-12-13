@@ -1,0 +1,7 @@
+important: Clone safimajid.github.io and rename it into public and 
+then push to publish   
+
+git init (initialization first time only)
+git add . (only for the first time)
+git commit -a -m "pdf files"
+git push -u origin main
